@@ -1,0 +1,26 @@
+{
+  "name": "Symbol Master Selecter",
+  "description": "Select master symbol in symbol page of selected instance",
+  "author": "Minoru Ito",
+  "version": "0.1.0",
+  "identifier": "com.takram.sketch.symbol-master-selecter",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Symbol Master Selecter",
+      "identifier": "symbol-master-selecter",
+      "script": "my-command.js",
+      "shortcut": "ctrl shift m"
+    }
+  ],
+  "menu": {
+    "items": [
+      "symbol-master-selecter"
+    ],
+    "isRoot": true
+  },
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml"
+}
